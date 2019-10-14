@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 2.8)
 
-add_library(afLib_c
+add_library(afLib
         af_command.c
         af_command.h
         af_lib.c
@@ -18,4 +18,8 @@ add_library(afLib_c
         sha2.c
         sha2.h
         hmacsha256.h
+        linux_logger.c
+        linux_uart.c
+        linux_uart.h
+        linux_utils.c
         )
